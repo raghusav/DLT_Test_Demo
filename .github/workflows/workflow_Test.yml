@@ -22,7 +22,7 @@ jobs:
     env:
       DATABRICKS_HOST: ${{ secrets.DEPLOYMENT_TARGET_URL }}
       DATABRICKS_TOKEN: ${{ secrets.DEPLOYMENT_TARGET }}
-      REPO_PATH: /Workspace/Repos/raghavendram@nousinfo.com/workspace_builder
+      REPO_PATH: /Workspace/Repos/raghavendram@nousinfo.com/workspace-builder
       # DBFS_LIB_PATH: dbfs:/path/to/libraries/
       # LATEST_WHEEL_NAME: latest_wheel_name.whl
 
